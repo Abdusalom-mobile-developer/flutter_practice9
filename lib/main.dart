@@ -39,7 +39,6 @@ class _MyWidgetState extends State<MyWidget>
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _animationController = AnimationController(
         vsync: this, duration: Duration(milliseconds: 1000));
@@ -49,7 +48,6 @@ class _MyWidgetState extends State<MyWidget>
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
     _animationController.dispose();
   }
